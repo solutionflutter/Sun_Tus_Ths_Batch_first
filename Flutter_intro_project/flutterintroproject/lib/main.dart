@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterintroproject/buttoncolumn.dart';
 import 'package:flutterintroproject/containercolumn.dart';
 
 void main() {
@@ -11,11 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ContainerColumn(),
+      home: BottonColumn(),
     );
   }
 }
