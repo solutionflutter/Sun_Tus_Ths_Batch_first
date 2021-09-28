@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterintroproject/appbarrisebutton.dart';
 import 'package:flutterintroproject/appbarrowcolumn.dart';
 import 'package:flutterintroproject/buttoncolumn.dart';
 import 'package:flutterintroproject/containercolumn.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AppbarRowColumn(),
+      home: AppBarRiseButton(),
     );
   }
 }
